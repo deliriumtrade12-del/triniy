@@ -1,9 +1,3 @@
-// Main dashboard HTML — exported separately due to size
-// This file contains the mainHTML() function
-// It's imported by index.js in the modular version
-// In the single-file version, it's inlined
-
-// See src/index.js for the complete implementation
 export function mainHTML() {
-  return '<!DOCTYPE html>...'; // See index.js for full HTML
+  return `<!doctype html><html lang="sk"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Aura Trinity</title></head><body><h1>Aura Trinity</h1><p>Dashboard je dostupný cez hlavný worker.</p></body></html>`;
 }

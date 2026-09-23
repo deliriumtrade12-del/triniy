@@ -1,0 +1,81 @@
+name = "aura-trinity"
+main = "src/index.js"
+compatibility_date = "2026-09-20"
+
+[triggers]
+crons = ["0 * * * *"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "aura-trinity-db"
+database_id = "a39b30d9-1a4a-4361-8910-d04e124df784"
+
+[[kv_namespaces]]
+binding = "Trinity"
+id = "663bafa490564fe098b6395196b4fb84"
+
+[ai]
+binding = "AI"
+
+[[services]]
+binding = "aura_memory"
+service = "aura-memory"
+
+[[services]]
+binding = "aura_knowledge"
+service = "aura-knowledge"
+
+[[services]]
+binding = "aura_codegen"
+service = "aura-codegen"
+
+[[services]]
+binding = "aura_github"
+service = "aura-github"
+
+[[services]]
+binding = "aura_cloudflare"
+service = "aura-cloudflare"
+
+[[services]]
+binding = "aura_analyzer"
+service = "aura-analyzer"
+
+[[services]]
+binding = "aura_planner"
+service = "aura-planner"
+
+[[services]]
+binding = "aura_reflector"
+service = "aura-reflector"
+
+[[services]]
+binding = "aura_evolver"
+service = "aura-evolver"
+
+[[services]]
+binding = "aura_sentinel"
+service = "aura-sentinel"
+
+[[services]]
+binding = "aura_optimizer"
+service = "aura-optimizer"
+
+[[services]]
+binding = "aura_architect"
+service = "aura-architect"
+
+[[services]]
+binding = "aura_tester"
+service = "aura-tester"
+
+[[services]]
+binding = "aura_deployer"
+service = "aura-deployer"
+
+[[services]]
+binding = "aura_logger"
+service = "aura-logger"
+
+[vars]
+ACCOUNT_ID = "90d6dd794c0910a8d4101b9602f880c7"
